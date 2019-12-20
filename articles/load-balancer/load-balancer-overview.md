@@ -19,7 +19,7 @@ ms.author: allensu
 
 # What is Azure Load Balancer?
 
-*Load balancing* refers to efficiently distributing load or incoming network traffic across a group of backend resources or servers. Azure offers a [variety of load balancing options](https://docs.microsoft.com/azure/architecture/guide/technology-choices/load-balancing-overview) that you can choose from based on your need. This document covers the Azure Load Balancer.
+Test Kumud*Load balancing* refers to efficiently distributing load or incoming network traffic across a group of backend resources or servers. Azure offers a [variety of load balancing options](https://docs.microsoft.com/azure/architecture/guide/technology-choices/load-balancing-overview) that you can choose from based on your need. This document covers the Azure Load Balancer.
 
 Azure Load Balancer operates at layer four of the Open Systems Interconnection (OSI) model. It is the single point of contact for clients. Load Balancer distributes new inbound flows that arrive at the Load Balancer's front end to back-end pool instances, according to specified load balancing rules and health probes. The back-end pool instances can be Azure Virtual Machines or instances in a virtual machine scale set. 
 
